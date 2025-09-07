@@ -106,26 +106,6 @@ docker run -i --net network -e MASTERIP="172.20.128.0" -e ID=X --name PEER-X sud
 docker start -i PEER-X
 ```
 
-## 📸 Screenshots
-
-### Schermata di Login
-![Login](https://user-images.githubusercontent.com/74552824/200955802-e4e01708-be1b-40ec-bc1e-60eed6e99525.png)
-
-### Tabellone Sfide
-![Tabellone Sfide](https://user-images.githubusercontent.com/74552824/200955800-a1aacab5-62c3-4926-8c73-aa0da7d7c2c3.png)
-
-### Partita in Corso
-![Partita](https://user-images.githubusercontent.com/74552824/200955798-c82af045-b204-4437-9915-dc4f0437ff43.png)
-
-### Fine Partita
-![Termine Partita](https://user-images.githubusercontent.com/74552824/201118214-ca8fe4b3-3a88-4bc0-bf65-6ffa5a615665.png)
-
-## ⚠️ Limitazioni Conosciute
-
-### Compatibilità Terminale
-- **Colori**: La colorazione del testo funziona solo su terminali compatibili con Swing
-- **Altri terminali**: Su terminali non-Swing il testo apparirà senza colorazione
-
 ### Aggiornamenti Automatici
 - **Esecuzione locale**: Refresh automatico di board e tabellone
 - **Esecuzione remota**: Necessario premere Enter quando richiesto per aggiornare la visualizzazione
